@@ -1,0 +1,16 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+	background: $footer-bg no-repeat left top; 	
+	height: $header-height - 10px; 
+	text-align:left;
+	width:100%;
+	min-width: $min-width;
+	order: 3;	
+	color: $title-color;
+	line-height: 2;
+}

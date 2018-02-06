@@ -1,0 +1,64 @@
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+	background: $header-bg no-repeat left top;
+	width:100%;
+	height: $header-height;
+	min-width: $min-width;
+	display: flex;
+	align-items: center;
+	order: 1;	
+	position: fixed;
+	z-index: 11;	
+	.container {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	a {
+		color: $title-color;
+		text-decoration: none;
+	}
+	.logo {
+		flex: 1 0 20px;
+		img {
+			max-width: $header-height;
+		}
+	}
+	nav {
+		flex: 2 0 auto;
+		ul {
+		    flex: 1;
+		    display: flex;
+		    margin: 0;
+		    list-style: none inside;
+		    min-height: 100%;
+		    li {
+		    	flex: 1 0 auto;
+		    	a {
+		    		display: block;
+		    		margin: 0 10px;
+		    		text-align: right;
+		    		transition: $default-transition;
+		    		&:hover {
+		    			text-decoration: underline;
+		    		}
+		    		@include phone {
+						font-size: $small-fz;
+						margin: 0 5px;
+					}
+		    	}
+		    	&:last-child {
+		    		a {
+		    			margin-right: 0;
+		    		}
+		    	}
+		    }
+		}
+	}
+}

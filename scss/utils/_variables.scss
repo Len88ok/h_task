@@ -1,0 +1,44 @@
+/* reset */
+$min-width: 320px; 
+$max-width: 1284px; 
+$sidebar: 200px;
+$main-content: 1024px;
+$base-bg: #FFF; 
+$base-font-size: 14px; 
+$small-fz: $base-font-size * 0.8;
+$base-line-height: 18px; 
+$base-font-family: Arial, sans-serif; 
+$custom-font-family: 'Open Sans', sans-serif; 
+$link-color: #100da9;
+$default-transition: all 0.2s linear;
+
+/* main variables */
+//colors
+$header-bg: #083A3A;
+$content-bg: #A7E5E5;
+$footer-bg: #000D0D;
+$sidebar-bg: #226666;
+$main-content-bg: $content-bg;
+$sticky-bg: #4E9292;
+
+
+
+//text, titles
+$text-color: #000;
+$title-color: #fff;
+$title-font-family: $custom-font-family;
+
+$font-size-h1: 36px;
+$line-height-h1: $font-size-h1 * 1.2;
+$font-size-h2: 32px;
+$line-height-h2: $font-size-h2 * 1.2;
+$font-size-h3: 28px;
+$line-height-h3: $font-size-h3 * 1.2;
+
+//header
+$header-height: 40px;
+
+//breakpoints
+$phone-width: 640px;
+$tablet-width: 768px;
+$desktop-width: 1366px;
